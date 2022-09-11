@@ -1,0 +1,88 @@
+/* цвет и фон страницы */
+.page {
+  background-color: #ffffff;
+  color: #757575;
+}
+
+/* убираем точки в списке */
+.list {
+  list-style: none;
+}
+
+/* оформляем логотип */
+.logo {
+  color: #2196f3;
+}
+
+.logo-nav {
+  color: #000000;
+}
+
+/* оформляем ссылки внутренней навигации*/
+.site-nav .link {
+  color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+/* оформляем ссылки почты и телефона */
+.mailtel-nav .link {
+  color: #757575;
+}
+
+.mailtel-nav .link:hover,
+.mailtel-nav .link:focus {
+  color: #2196f3;
+}
+
+/* оформляем герой */
+.hero {
+  background: #2f303a;
+}
+
+.hero-title {
+  color: #ffffff;
+}
+
+/* оформляем секции */
+.section-title {
+  color: #212121;
+}
+
+.name {
+  color: #212121;
+}
+
+.team {
+  background: #f5f4fa;
+}
+
+/* оформление футера */
+.footer {
+  background: #2f303a;
+}
+
+.footer-logo {
+  color: #ffffff;
+}
+
+.address .link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.link-address {
+  color: #ffffff;
+}
+
+.link-address:hover,
+.link-address:focus {
+  color: #2196f3;
+}
+
+.address .link:hover,
+.address .link:focus {
+  color: #2196f3;
+}

@@ -10,12 +10,18 @@
 /* цвет и фон страницы */
 body {
   font-family: "Roboto", sans-serif;
-  background: var(--primary-white-color);
+  background-color: var(--primary-white-color);
 }
 
-/* убираем точки в списке */
+/* ------ убираем точки в списке --------- */
 .list {
   list-style: none;
+}
+
+/* ----- убираем подчеркивания ---------  */
+
+.link {
+  text-decoration: none;
 }
 
 /* -----HEADER------- */
@@ -35,17 +41,16 @@ body {
   color: #000000;
 }
 
-.nav-item {
+.nav-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
-  text-decoration: none;
 }
 
-.nav-item:hover,
-.nav-item:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: var(--accent-color);
 }
 
@@ -53,17 +58,16 @@ body {
   color: var(--accent-color);
 }
 
-.nav-mailtel .link {
+.connection .link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
-  text-decoration: none;
 }
 
-.nav-mailtel .link:hover,
-.nav-mailtel .link:focus {
+.connection .link:hover,
+.connection .link:focus {
   color: var(--accent-color);
 }
 
@@ -202,32 +206,32 @@ body {
   background: var(--secondary-bgr-color);
 }
 
-.logo-footer {
+.logo-white {
   color: var(--primary-white-color);
 }
 
-.footer-link {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--primary-white-color);
-  text-decoration: none;
-}
-
-.footer-list .link {
+.footer-item .link {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  text-decoration: none;
+}
+
+.footer-item .footer-link.link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primary-white-color);
 }
 
 .footer-link:hover,
-.footer-link:focus {
+.footer-iink:focus {
   color: var(--accent-color);
 }
 
-.footer-list .link:hover,
-.footer-list .link:focus {
+.footer-item .link:hover,
+.footer-item .link:focus {
   color: var(--accent-color);
 }

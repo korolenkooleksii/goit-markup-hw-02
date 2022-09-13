@@ -5,21 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Студія</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <!-- Верхня лінія -->
-      <nav>
-        <a href="./index.html" lang="en" class="logo">Web<span class="logo-nav">Studio</span></a>
-        <ul class="site-nav list">
-          <li><a href="./index.html"class="link current">Студія</a></li>
-          <li><a href="./portfolio.html"class="link">Портфоліо</a></li>
-          <li><a href="#"class="link">Контакти</a></li>
+      <nav class="nav">
+        <a class="logo" href="./index.html" lang="en"
+          >Web<span class="logo-black">Studio</span></a
+        >
+        <ul class="nav-list list">
+          <li><a class="nav-item current" href="./index.html">Студія</a></li>
+          <li><a class="nav-item" href="./portfolio.html">Портфоліо</a></li>
+          <li><a class="nav-item" href="#">Контакти</a></li>
         </ul>
       </nav>
-      <ul class="mailtel-nav list">
-        <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+      <ul class="nav-mailtel list">
+        <li>
+          <a href="mailto:info@devstudio.com" class="link"
+            >info@devstudio.com</a
+          >
+        </li>
         <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
       </ul>
     </header>
@@ -28,45 +41,45 @@
       <!-- Секція герой -->
       <section class="hero">
         <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-        <button type="button" class="hero-button">Замовити послугу</button>
+        <button class="hero-button" type="button">Замовити послугу</button>
       </section>
       <!-- Секція особливості - приховати h2-->
-      <section class="section">
-        <h2">Особливості</h2>
-        <ul class="list">
+      <section class="feature">
+        <h2>Особливості</h2>
+        <ul class="feature-list list">
           <li>
-            <h3 class="section-title">УВАГА ДО ДЕТАЛЕЙ</h3>
-            <p>
+            <h3 class="feature-title">УВАГА ДО ДЕТАЛЕЙ</h3>
+            <p class="feature-text">
               Ідейні міркування, і навіть початок повсякденної роботи з
               формування позиції.
             </p>
           </li>
           <li>
-            <h3 class="section-title">ПУНКТУАЛЬНІСТЬ</h3>
-            <p>
+            <h3 class="feature-title">ПУНКТУАЛЬНІСТЬ</h3>
+            <p class="feature-text">
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               у себе.
             </p>
           </li>
           <li>
-            <h3 class="section-title">ПЛАНУВАННЯ</h3>
-            <p>
+            <h3 class="feature-title">ПЛАНУВАННЯ</h3>
+            <p class="feature-text">
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
           <li>
-            <h3 class="section-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-            <p>
+            <h3 class="feature-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+            <p class="feature-text">
               Значимість цих проблем настільки очевидна, що реалізація планових
               завдань.
             </p>
           </li>
         </ul>
-      </section >
+      </section>
       <!-- Секція Чим ми займаємося -->
-      <section class="section">
-        <h2 class="section-title">Чим ми займаємося</h2>
-        <ul class="list">
+      <section class="work">
+        <h2 class="work-title">Чим ми займаємося</h2>
+        <ul class="work-list list">
           <li>
             <img
               src="./images/img1.jpg"
@@ -91,23 +104,23 @@
         </ul>
       </section>
       <!-- Секція наша команда -->
-      <section class="section team">
-        <h2 class="section-title">Наша команда</h2>
-        <ul class="list">
+      <section class="team">
+        <h2 class="team-title">Наша команда</h2>
+        <ul class="team-list list">
           <li>
             <img src="./images/imgigor.jpg" alt="фото Ігоря" width="270" />
-            <h3 class="name">Ігор Дем'яненко</h3>
-            <p lang="en">Product Designer</p>
+            <h3 class="team-name">Ігор Дем'яненко</h3>
+            <p class="team-text" lang="en">Product Designer</p>
           </li>
           <li>
             <img src="./images/imgolga.jpg" alt="фото Ольги" width="270" />
-            <h3 class="name">Ольга Рєпіна</h3>
-            <p lang="en">Developer</p>
+            <h3 class="team-name">Ольга Рєпіна</h3>
+            <p class="team-text" lang="en">Developer</p>
           </li>
           <li>
             <img src="./images/imgmikola.jpg" alt="фото Миколи" width="270" />
-            <h3 class="name">Микола Тарасов</h3>
-            <p lang="en">Marketing</p>
+            <h3 class="team-name">Микола Тарасов</h3>
+            <p class="team-text" lang="en">Marketing</p>
           </li>
           <li>
             <img
@@ -115,30 +128,38 @@
               alt="фото Михайла"
               width="270"
             />
-            <h3 class="name">Михайло Єрмаков</h3>
-            <p lang="en">UI Designer</p>
+            <h3 class="team-name">Михайло Єрмаков</h3>
+            <p class="team-text" lang="en">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
     <!-- Секція підвал -->
     <footer class="footer">
-      <address">
-        <a href="./index.html" lang="en" class="logo">Web<span class="logo-footer">Studio</span></a>
-        <ul class="address list">
+      <address>
+        <a class="logo" href="./index.html" lang="en"
+          >Web<span class="logo-footer">Studio</span></a
+        >
+        <ul class="footer-list list">
           <li>
             <a
+              class="footer-link address-link"
               href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
               target="_blank"
               rel="noopener noreferrer"
-              class="link-address">м. Київ, пр-т Лесі Українки, 26</a
+              >м. Київ, пр-т Лесі Українки, 26</a
             >
           </li>
-          <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+          <li>
+            <a class="link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
         </ul>
       </address>
     </footer>
   </body>
 </html>
-

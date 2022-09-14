@@ -108,8 +108,8 @@ body {
 
 /* ------- FEATURE ------- */
 
-.visibility-hidden {
-  visibility: hidden;
+.visually-hidden {
+  opacity: 0;
 }
 
 .feature-title {

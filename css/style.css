@@ -133,10 +133,6 @@ body {
 
 /* ---------- TEAM ------------ */
 
-.team {
-  background: var(--primary-bgr-color);
-}
-
 .team-title {
   font-weight: 700;
   font-size: 36px;
@@ -185,16 +181,19 @@ body {
 
 /* ------------- PORTFOLIO ------------ */
 
-:hover,
-:focus {
+.portfolio-item:hover,
+.portfolio-item:focus {
   color: var(--primary-text-color);
 }
 
 .portfolio-title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  color: var(--primary-text-color);
 }
 
 .portfolio-text {

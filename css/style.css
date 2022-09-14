@@ -99,6 +99,7 @@ body {
   color: var(--primary-white-color);
   text-align: center;
   cursor: pointer;
+  border: none;
 }
 
 .hero-button:hover,
@@ -109,7 +110,16 @@ body {
 /* ------- FEATURE ------- */
 
 .visually-hidden {
-  opacity: 0;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .feature-title {
@@ -140,7 +150,7 @@ body {
 /* ---------- TEAM ------------ */
 
 .team {
-  background: var(--primary-bgr-color);
+  background-color: var(--primary-bgr-color);
 }
 
 .team-title {
@@ -221,7 +231,7 @@ body {
 }
 
 .logo-white {
-  color: var(--primary-white-color);
+  color: #ffffff;
 }
 
 .footer-item .link {
